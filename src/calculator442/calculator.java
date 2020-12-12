@@ -39,10 +39,10 @@ public class calculator extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        t1.setFont(new java.awt.Font("Verdana", 1, 18)); // NOI18N
+        t1.setFont(new java.awt.Font("Verdana", 1, 18));
         t1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 
-        b1.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b1.setFont(new java.awt.Font("Verdana", 1, 10));
         b1.setText("1");
         b1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -50,7 +50,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b2.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b2.setFont(new java.awt.Font("Verdana", 1, 10));
         b2.setText("2");
         b2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,7 +58,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b3.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b3.setFont(new java.awt.Font("Verdana", 1, 10));
         b3.setText("3");
         b3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,7 +66,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b4.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b4.setFont(new java.awt.Font("Verdana", 1, 10));
         b4.setText("4");
         b4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,7 +74,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b5.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b5.setFont(new java.awt.Font("Verdana", 1, 10));
         b5.setText("5");
         b5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -82,7 +82,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b6.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b6.setFont(new java.awt.Font("Verdana", 1, 10));
         b6.setText("6");
         b6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,7 +90,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b7.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b7.setFont(new java.awt.Font("Verdana", 1, 10));
         b7.setText("7");
         b7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -98,7 +98,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b8.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b8.setFont(new java.awt.Font("Verdana", 1, 10));
         b8.setText("8");
         b8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -106,7 +106,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b9.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b9.setFont(new java.awt.Font("Verdana", 1, 10));
         b9.setText("9");
         b9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,7 +114,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b10.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b10.setFont(new java.awt.Font("Verdana", 1, 10));
         b10.setText("0");
         b10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,7 +122,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b11.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b11.setFont(new java.awt.Font("Verdana", 1, 10));
         b11.setText("+");
         b11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,7 +130,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b12.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b12.setFont(new java.awt.Font("Verdana", 1, 10));
         b12.setText("-");
         b12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -138,7 +138,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b13.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b13.setFont(new java.awt.Font("Verdana", 1, 10));
         b13.setText("c");
         b13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -146,7 +146,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b14.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b14.setFont(new java.awt.Font("Verdana", 1, 10));
         b14.setText("=");
         b14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +154,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b15.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b15.setFont(new java.awt.Font("Verdana", 1, 10));
         b15.setText("/");
         b15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -162,7 +162,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b16.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b16.setFont(new java.awt.Font("Verdana", 1, 10));
         b16.setText("*");
         b16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,7 +170,7 @@ public class calculator extends javax.swing.JFrame {
             }
         });
 
-        b17.setFont(new java.awt.Font("Verdana", 1, 10)); // NOI18N
+        b17.setFont(new java.awt.Font("Verdana", 1, 10));
         b17.setText(".");
         b17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
