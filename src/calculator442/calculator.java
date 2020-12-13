@@ -349,18 +349,24 @@ public class calculator extends javax.swing.JFrame {
     private void b14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b14ActionPerformed
 
         secondnumber = Double.parseDouble(t1.getText());
-        mathExecutor executor = new mathExecutor(firstnumber, secondnumber);
+        MathNumber firstMathNumber = new MathNumber(firstnumber);
+        MathNumber secondMathNumber = new MathNumber(secondnumber);
+        MathExecutor executor = new MathExecutor(firstMathNumber, secondMathNumber);
         if (operator == "+") {
-            result = executor.doAdd();
+            MathNumber mathNumberResult = executor.doAdd();
+            result = mathNumberResult.getNumber();
             t1.setText(Double.toString(result));
         } else if (operator == "-") {
-            result = executor.doSubtract();
+            MathNumber mathNumberResult = executor.doSubtract();
+            result = mathNumberResult.getNumber();
             t1.setText(Double.toString(result));
         } else if (operator == "/") {
-            result = executor.doDivide();
+            MathNumber mathNumberResult = executor.doDivide();
+            result = mathNumberResult.getNumber();
             t1.setText(Double.toString(result));
         } else if (operator == "*") {
-            result = executor.doMult();
+            MathNumber mathNumberResult = executor.doMult();
+            result = mathNumberResult.getNumber();
             t1.setText(Double.toString(result));
         }
     }//GEN-LAST:event_b14ActionPerformed
