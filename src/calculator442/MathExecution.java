@@ -1,11 +1,11 @@
 package calculator442;
 
-public class MathExecutor2 {
+public class MathExecution {
     
     public MathNumber mn1;
     public MathNumber mn2;
     
-    public MathExecutor2(MathNumber mn1, MathNumber mn2) {
+    public MathExecution(MathNumber mn1, MathNumber mn2) {
         this.mn1 = mn1;
         this.mn2 = mn2;
     }
