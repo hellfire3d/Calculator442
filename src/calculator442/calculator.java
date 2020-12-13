@@ -351,7 +351,7 @@ public class calculator extends javax.swing.JFrame {
         secondnumber = Double.parseDouble(t1.getText());
         MathNumber firstMathNumber = new MathNumber(firstnumber);
         MathNumber secondMathNumber = new MathNumber(secondnumber);
-        MathExecutor executor = new MathExecutor(firstMathNumber, secondMathNumber);
+        MathExecutor2 executor = new MathExecutor2(firstMathNumber, secondMathNumber);
         if (operator == "+") {
             MathNumber mathNumberResult = executor.doAdd();
             result = mathNumberResult.getNumber();
